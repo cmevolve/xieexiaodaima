@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/day06_ioc.iml" filepath="$PROJECT_DIR$/day06_ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day07_ioc.iml" filepath="$PROJECT_DIR$/day07_ioc.iml" />
     </modules>
   </component>
 </project>
