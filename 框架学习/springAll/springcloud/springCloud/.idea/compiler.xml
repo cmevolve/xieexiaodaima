@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eurekaclient" />
+        <module name="eurekaserver" />
+        <module name="gateway" />
+        <module name="serice-feign" />
+        <module name="service-ribbon-7001" />
+        <module name="service-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eurekaclient" target="1.8" />
+      <module name="eurekaserver" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="serice-feign" target="1.8" />
+      <module name="service-ribbon-7001" target="1.8" />
+      <module name="service-zuul" target="1.8" />
+      <module name="springCloud" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,21 @@
+server:
+  port: 8762
+
+spring:
+  application:
+    name: eurekaclient
+
+eureka:
+  server:
+    enable-self-preservation
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    instance-id: eurekaclient8762   #显示别名
+    prefer-ip-address: true #访问路径显示ip地址
+info: 
+  app.name: myfirstEurekaClient
+  company.name: www.iamlfc.top
+##  build.artifactId: $project.artifactId$
+##  build.version: $project.version$
