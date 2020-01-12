@@ -5,15 +5,15 @@
 
 	<property name="ant.home" value="${env.ANT_HOME}" />
 	<property name="java.home" value="${env.JAVA_HOME}" />
-
 	<property name="src.dir" value="${basedir}/src/path" />
 	<property name="src.lib" value="${basedir}/src/templib" />
-	<property name="src.dir_1" value="${basedir}/src" />
+	<property name="src.dir_1" value="${basedir}/src/main/java" />
+	<property name="src.dir_2" value="${basedir}/src/main/resources" />
+	<property name="src.dir_3" value="${basedir}/src/interface" />
 	<property name="web.dir" value="${basedir}/WebRoot" />
 	<property name="build.classes" value="${web.dir}/WEB-INF/classes" />
-	<property name="dist.dir" value="${basedir}/claim" />
+	<property name="dist.dir" value="${basedir}/policy_vhl_jar" />
 	<property name="conf.dir" value="${web.dir}/WEB-INF/classes/conf" />
-	<property name="zsconf.dir" value="${basedir}/conf/zs" />
 	<property name="temp_build.dir" value="${basedir}/build" />
 	<property name="conf.dir_1" value="${web.dir}/WEB-INF/"/>
 
@@ -51,12 +51,19 @@
 		<mkdir dir="${dist.dir}" />
 		<mkdir dir="${src.dir}" />
 		<copy todir="${src.dir}">
-			<fileset dir="${src.dir_1}">
-			</fileset>
+			<fileset dir="${src.dir_1}"/>
+			<fileset dir="${src.dir_2}"/>
+			<fileset dir="${src.dir_3}"/>
 		</copy>
 		<copy todir="${build.classes}">
 			<fileset dir="${src.dir_1}">
 				<patternset refid="no.java" />
+				<patternset refid="properties" />
+			</fileset>
+			<fileset dir="${src.dir_2}">
+				<patternset refid="properties" />
+			</fileset>
+			<fileset dir="${src.dir_3}">
 				<patternset refid="properties" />
 			</fileset>
 		</copy>
@@ -73,9 +80,9 @@
 	
 
 	<path id="lib_classpath">
-        <fileset dir="${basedir}/">
-            <include name="svnPacket.jar"/>
-        </fileset>
+	        <fileset dir="${basedir}/">
+	            <include name="svnPacket.jar"/>
+	        </fileset>
 	</path>
 	<target name="package" depends="compile">  
 		 <echo>开始.......</echo>
