@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="svnPacket:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f7f276b-3a80-4d14-991d-bdcbd4b4bfff" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SVNkitUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/glory/svn/SVNkitUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="803">
+              <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_list.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file_list.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="78" lean-forward="false" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="svnconfig.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svnconfig.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="svn_version.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svn_version.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SVNDebugLog.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNDebugLog.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+              <folding>
+                <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1577270825938" expanded="true" signature="307:314" ph="{}" />
+                <marker date="1577270825938" expanded="false" signature="370:381" ph=" { " />
+                <marker date="1577270825938" expanded="false" signature="401:407" ph=" }" />
+                <marker date="1577270825938" expanded="true" signature="456:598" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SVNDebugLogAdapter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNDebugLogAdapter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding>
+                <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1577270825938" expanded="false" signature="146:412" ph="..." />
+                <marker date="1577270825938" expanded="true" signature="513:520" ph="{}" />
+                <marker date="1577270825938" expanded="false" signature="582:593" ph=" { " />
+                <marker date="1577270825938" expanded="false" signature="632:638" ph=" }" />
+                <marker date="1577270825938" expanded="false" signature="698:709" ph=" { " />
+                <marker date="1577270825938" expanded="false" signature="743:749" ph=" }" />
+                <marker date="1577270825938" expanded="false" signature="812:823" ph=" { " />
+                <marker date="1577270825938" expanded="false" signature="864:870" ph=" }" />
+                <marker date="1577270825938" expanded="false" signature="931:942" ph=" { " />
+                <marker date="1577270825938" expanded="false" signature="978:984" ph=" }" />
+                <marker date="1577270825938" expanded="false" signature="1043:1054" ph=" { " />
+                <marker date="1577270825938" expanded="false" signature="1088:1094" ph=" }" />
+                <marker date="1577270825938" expanded="false" signature="1155:1166" ph=" { " />
+                <marker date="1577270825938" expanded="false" signature="1205:1211" ph=" }" />
+                <marker date="1577270825938" expanded="false" signature="1271:1282" ph=" { " />
+                <marker date="1577270825938" expanded="false" signature="1317:1323" ph=" }" />
+                <marker date="1577270825938" expanded="false" signature="1385:1396" ph=" { " />
+                <marker date="1577270825938" expanded="false" signature="1436:1442" ph=" }" />
+                <marker date="1577270825938" expanded="false" signature="1503:1514" ph=" { " />
+                <marker date="1577270825938" expanded="false" signature="1550:1556" ph=" }" />
+                <marker date="1577270825938" expanded="false" signature="1619:1630" ph=" { " />
+                <marker date="1577270825938" expanded="false" signature="1671:1677" ph=" }" />
+                <marker date="1577270825938" expanded="true" signature="1722:2064" ph="{...}" />
+                <marker date="1577270825938" expanded="true" signature="2141:2219" ph="{...}" />
+                <marker date="1577270825938" expanded="true" signature="2298:2378" ph="{...}" />
+                <marker date="1577270825938" expanded="false" signature="2426:2437" ph=" { " />
+                <marker date="1577270825938" expanded="false" signature="2474:2480" ph=" }" />
+                <marker date="1577270825938" expanded="false" signature="2529:2540" ph=" { " />
+                <marker date="1577270825938" expanded="false" signature="2576:2582" ph=" }" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SVNLogType.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNLogType.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1577270825938" expanded="true" signature="780:853" ph="{...}" />
+                <marker date="1577270825938" expanded="false" signature="882:893" ph=" { " />
+                <marker date="1577270825938" expanded="false" signature="912:918" ph=" }" />
+                <marker date="1577270825938" expanded="false" signature="952:963" ph=" { " />
+                <marker date="1577270825938" expanded="false" signature="987:993" ph=" }" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Version.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/Version.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3406">
+              <caret line="139" column="84" lean-forward="false" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="84" />
+              <folding>
+                <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1577270825938" expanded="false" signature="146:278" ph="..." />
+                <marker date="1577270825938" expanded="true" signature="1531:1538" ph="{}" />
+                <marker date="1577270825938" expanded="true" signature="1584:1741" ph="{...}" />
+                <marker date="1577270825938" expanded="true" signature="1792:1942" ph="{...}" />
+                <marker date="1577270825938" expanded="true" signature="1985:2091" ph="{...}" />
+                <marker date="1577270825938" expanded="true" signature="2147:2276" ph="{...}" />
+                <marker date="1577270825938" expanded="false" signature="2317:2328" ph=" { " />
+                <marker date="1577270825938" expanded="false" signature="2392:2398" ph=" }" />
+                <marker date="1577270825938" expanded="true" signature="2440:2680" ph="{...}" />
+                <marker date="1577270825938" expanded="true" signature="2722:2962" ph="{...}" />
+                <marker date="1577270825938" expanded="true" signature="3004:3244" ph="{...}" />
+                <marker date="1577270825938" expanded="true" signature="3250:3268" ph="/**...*/" />
+                <marker date="1577270825938" expanded="true" signature="3328:4554" ph="{...}" />
+                <marker date="1577270825938" expanded="true" signature="4601:4715" ph="{...}" />
+                <marker date="1577270825938" expanded="true" signature="4758:5346" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>properties</find>
+      <find>fileNameSet</find>
+      <find>delPathSet</find>
+      <find>PROPERTIES_PATH</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/glory/svn/demo.java" />
+        <option value="$PROJECT_DIR$/svn_version.txt" />
+        <option value="$PROJECT_DIR$/svnconfig.properties" />
+        <option value="$PROJECT_DIR$/src/com/glory/svn/SVNkitUtil.java" />
+        <option value="$PROJECT_DIR$/file_list.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="73" />
+    <option name="y" value="73" />
+    <option name="width" value="1110" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="svnPacket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svnPacket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPacket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svnPacket" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPacket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svnPacket" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPacket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svnPacket" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="svnPacket_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\work\svnPacket" />
+      <recent name="E:\work\svnPacket\src\com\glory\svn" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SVNkitUtil">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="SVNkitUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.glory.svn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.glory.svn.SVNkitUtil" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="svnPacket" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.glory.svn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.glory.svn.demo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="svnPacket" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.SVNkitUtil" />
+      <item index="1" class="java.lang.String" itemvalue="Application.demo" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.SVNkitUtil" />
+        <item index="1" class="java.lang.String" itemvalue="Application.demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f7f276b-3a80-4d14-991d-bdcbd4b4bfff" name="Default" comment="" />
+      <created>1577771354695</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577771354695</updated>
+      <workItem from="1577771356611" duration="5229000" />
+      <workItem from="1577776668293" duration="4391000" />
+      <workItem from="1577945677227" duration="220000" />
+      <workItem from="1577955155782" duration="4168000" />
+      <workItem from="1578358685837" duration="1032000" />
+      <workItem from="1578621279251" duration="2783000" />
+      <workItem from="1578648663158" duration="51000" />
+      <workItem from="1578829855226" duration="348000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18222000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="73" y="73" width="1110" height="732" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41809523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39948782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39948782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17091455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="17" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="svnlogentry.getRevision()" />
+        <watch expression="startRevision" />
+        <watch expression="svnlogentry.getChangedPaths().keySet()" />
+        <watch expression="sBuilder.toString()" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>sBuilder.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNLogType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="true" signature="780:853" ph="{...}" />
+            <marker date="1577270825938" expanded="false" signature="882:893" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="912:918" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="952:963" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="987:993" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/Version.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3406">
+          <caret line="139" column="84" lean-forward="false" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="84" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="false" signature="146:278" ph="..." />
+            <marker date="1577270825938" expanded="true" signature="1531:1538" ph="{}" />
+            <marker date="1577270825938" expanded="true" signature="1584:1741" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="1792:1942" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="1985:2091" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2147:2276" ph="{...}" />
+            <marker date="1577270825938" expanded="false" signature="2317:2328" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="2392:2398" ph=" }" />
+            <marker date="1577270825938" expanded="true" signature="2440:2680" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2722:2962" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="3004:3244" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="3250:3268" ph="/**...*/" />
+            <marker date="1577270825938" expanded="true" signature="3328:4554" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="4601:4715" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="4758:5346" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/glory/svn/SVNkitUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="78" lean-forward="false" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svnconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svn_version.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNDebugLog.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="true" signature="307:314" ph="{}" />
+            <marker date="1577270825938" expanded="false" signature="370:381" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="401:407" ph=" }" />
+            <marker date="1577270825938" expanded="true" signature="456:598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNDebugLogAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="false" signature="146:412" ph="..." />
+            <marker date="1577270825938" expanded="true" signature="513:520" ph="{}" />
+            <marker date="1577270825938" expanded="false" signature="582:593" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="632:638" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="698:709" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="743:749" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="812:823" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="864:870" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="931:942" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="978:984" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1043:1054" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1088:1094" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1155:1166" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1205:1211" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1271:1282" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1317:1323" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1385:1396" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1436:1442" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1503:1514" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1550:1556" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1619:1630" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1671:1677" ph=" }" />
+            <marker date="1577270825938" expanded="true" signature="1722:2064" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2141:2219" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2298:2378" ph="{...}" />
+            <marker date="1577270825938" expanded="false" signature="2426:2437" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="2474:2480" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="2529:2540" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="2576:2582" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNLogType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="true" signature="780:853" ph="{...}" />
+            <marker date="1577270825938" expanded="false" signature="882:893" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="912:918" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="952:963" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="987:993" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/Version.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3406">
+          <caret line="139" column="84" lean-forward="false" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="84" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="false" signature="146:278" ph="..." />
+            <marker date="1577270825938" expanded="true" signature="1531:1538" ph="{}" />
+            <marker date="1577270825938" expanded="true" signature="1584:1741" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="1792:1942" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="1985:2091" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2147:2276" ph="{...}" />
+            <marker date="1577270825938" expanded="false" signature="2317:2328" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="2392:2398" ph=" }" />
+            <marker date="1577270825938" expanded="true" signature="2440:2680" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2722:2962" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="3004:3244" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="3250:3268" ph="/**...*/" />
+            <marker date="1577270825938" expanded="true" signature="3328:4554" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="4601:4715" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="4758:5346" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/glory/svn/SVNkitUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3796">
+          <caret line="159" column="9" lean-forward="false" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svnconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svn_version.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNDebugLog.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="true" signature="307:314" ph="{}" />
+            <marker date="1577270825938" expanded="false" signature="370:381" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="401:407" ph=" }" />
+            <marker date="1577270825938" expanded="true" signature="456:598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNDebugLogAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="false" signature="146:412" ph="..." />
+            <marker date="1577270825938" expanded="true" signature="513:520" ph="{}" />
+            <marker date="1577270825938" expanded="false" signature="582:593" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="632:638" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="698:709" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="743:749" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="812:823" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="864:870" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="931:942" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="978:984" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1043:1054" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1088:1094" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1155:1166" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1205:1211" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1271:1282" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1317:1323" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1385:1396" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1436:1442" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1503:1514" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1550:1556" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1619:1630" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1671:1677" ph=" }" />
+            <marker date="1577270825938" expanded="true" signature="1722:2064" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2141:2219" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2298:2378" ph="{...}" />
+            <marker date="1577270825938" expanded="false" signature="2426:2437" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="2474:2480" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="2529:2540" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="2576:2582" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNLogType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="true" signature="780:853" ph="{...}" />
+            <marker date="1577270825938" expanded="false" signature="882:893" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="912:918" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="952:963" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="987:993" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/Version.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3406">
+          <caret line="139" column="84" lean-forward="false" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="84" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="false" signature="146:278" ph="..." />
+            <marker date="1577270825938" expanded="true" signature="1531:1538" ph="{}" />
+            <marker date="1577270825938" expanded="true" signature="1584:1741" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="1792:1942" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="1985:2091" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2147:2276" ph="{...}" />
+            <marker date="1577270825938" expanded="false" signature="2317:2328" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="2392:2398" ph=" }" />
+            <marker date="1577270825938" expanded="true" signature="2440:2680" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2722:2962" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="3004:3244" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="3250:3268" ph="/**...*/" />
+            <marker date="1577270825938" expanded="true" signature="3328:4554" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="4601:4715" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="4758:5346" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="78" lean-forward="false" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/glory/svn/SVNkitUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNDebugLog.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="true" signature="307:314" ph="{}" />
+            <marker date="1577270825938" expanded="false" signature="370:381" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="401:407" ph=" }" />
+            <marker date="1577270825938" expanded="true" signature="456:598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNDebugLogAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="false" signature="146:412" ph="..." />
+            <marker date="1577270825938" expanded="true" signature="513:520" ph="{}" />
+            <marker date="1577270825938" expanded="false" signature="582:593" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="632:638" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="698:709" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="743:749" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="812:823" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="864:870" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="931:942" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="978:984" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1043:1054" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1088:1094" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1155:1166" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1205:1211" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1271:1282" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1317:1323" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1385:1396" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1436:1442" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1503:1514" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1550:1556" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1619:1630" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1671:1677" ph=" }" />
+            <marker date="1577270825938" expanded="true" signature="1722:2064" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2141:2219" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2298:2378" ph="{...}" />
+            <marker date="1577270825938" expanded="false" signature="2426:2437" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="2474:2480" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="2529:2540" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="2576:2582" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNLogType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="true" signature="780:853" ph="{...}" />
+            <marker date="1577270825938" expanded="false" signature="882:893" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="912:918" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="952:963" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="987:993" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/Version.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3406">
+          <caret line="139" column="84" lean-forward="false" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="84" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="false" signature="146:278" ph="..." />
+            <marker date="1577270825938" expanded="true" signature="1531:1538" ph="{}" />
+            <marker date="1577270825938" expanded="true" signature="1584:1741" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="1792:1942" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="1985:2091" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2147:2276" ph="{...}" />
+            <marker date="1577270825938" expanded="false" signature="2317:2328" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="2392:2398" ph=" }" />
+            <marker date="1577270825938" expanded="true" signature="2440:2680" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2722:2962" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="3004:3244" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="3250:3268" ph="/**...*/" />
+            <marker date="1577270825938" expanded="true" signature="3328:4554" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="4601:4715" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="4758:5346" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/glory/svn/SVNkitUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNDebugLog.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="true" signature="307:314" ph="{}" />
+            <marker date="1577270825938" expanded="false" signature="370:381" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="401:407" ph=" }" />
+            <marker date="1577270825938" expanded="true" signature="456:598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNDebugLogAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="false" signature="146:412" ph="..." />
+            <marker date="1577270825938" expanded="true" signature="513:520" ph="{}" />
+            <marker date="1577270825938" expanded="false" signature="582:593" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="632:638" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="698:709" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="743:749" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="812:823" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="864:870" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="931:942" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="978:984" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1043:1054" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1088:1094" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1155:1166" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1205:1211" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1271:1282" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1317:1323" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1385:1396" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1436:1442" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1503:1514" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1550:1556" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1619:1630" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1671:1677" ph=" }" />
+            <marker date="1577270825938" expanded="true" signature="1722:2064" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2141:2219" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2298:2378" ph="{...}" />
+            <marker date="1577270825938" expanded="false" signature="2426:2437" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="2474:2480" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="2529:2540" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="2576:2582" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNLogType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="true" signature="780:853" ph="{...}" />
+            <marker date="1577270825938" expanded="false" signature="882:893" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="912:918" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="952:963" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="987:993" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/Version.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3406">
+          <caret line="139" column="84" lean-forward="false" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="84" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="false" signature="146:278" ph="..." />
+            <marker date="1577270825938" expanded="true" signature="1531:1538" ph="{}" />
+            <marker date="1577270825938" expanded="true" signature="1584:1741" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="1792:1942" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="1985:2091" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2147:2276" ph="{...}" />
+            <marker date="1577270825938" expanded="false" signature="2317:2328" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="2392:2398" ph=" }" />
+            <marker date="1577270825938" expanded="true" signature="2440:2680" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2722:2962" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="3004:3244" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="3250:3268" ph="/**...*/" />
+            <marker date="1577270825938" expanded="true" signature="3328:4554" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="4601:4715" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="4758:5346" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/glory/svn/SVNkitUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/glory/svn/demo.java" />
+    <entry file="file://$PROJECT_DIR$/file_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svn_version.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svnconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/core/ISVNLogEntryHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/core/io/SVNRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="251" column="134" lean-forward="true" selection-start-line="251" selection-start-column="134" selection-end-line="251" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/core/internal/io/dav/DAVRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="1095" column="0" lean-forward="false" selection-start-line="1095" selection-start-column="0" selection-end-line="1095" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/core/SVNLogEntry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/core/internal/io/dav/handlers/BasicDAVHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="74" column="92" lean-forward="false" selection-start-line="74" selection-start-column="92" selection-end-line="74" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/core/internal/io/dav/http/HTTPConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="924" column="182" lean-forward="false" selection-start-line="924" selection-start-column="182" selection-end-line="924" selection-end-column="182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/core/internal/io/dav/handlers/DAVLogHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="227" column="0" lean-forward="false" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/glory/svn/demo.java" />
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNLogType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="true" signature="780:853" ph="{...}" />
+            <marker date="1577270825938" expanded="false" signature="882:893" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="912:918" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="952:963" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="987:993" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNDebugLogAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="false" signature="146:412" ph="..." />
+            <marker date="1577270825938" expanded="true" signature="513:520" ph="{}" />
+            <marker date="1577270825938" expanded="false" signature="582:593" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="632:638" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="698:709" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="743:749" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="812:823" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="864:870" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="931:942" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="978:984" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1043:1054" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1088:1094" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1155:1166" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1205:1211" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1271:1282" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1317:1323" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1385:1396" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1436:1442" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1503:1514" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1550:1556" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="1619:1630" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="1671:1677" ph=" }" />
+            <marker date="1577270825938" expanded="true" signature="1722:2064" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2141:2219" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2298:2378" ph="{...}" />
+            <marker date="1577270825938" expanded="false" signature="2426:2437" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="2474:2480" ph=" }" />
+            <marker date="1577270825938" expanded="false" signature="2529:2540" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="2576:2582" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/SVNDebugLog.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="true" signature="307:314" ph="{}" />
+            <marker date="1577270825938" expanded="false" signature="370:381" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="401:407" ph=" }" />
+            <marker date="1577270825938" expanded="true" signature="456:598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/svnkit-1.9.3.jar!/org/tmatesoft/svn/util/Version.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3406">
+          <caret line="139" column="84" lean-forward="false" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="84" />
+          <folding>
+            <marker date="1577270825938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1577270825938" expanded="false" signature="146:278" ph="..." />
+            <marker date="1577270825938" expanded="true" signature="1531:1538" ph="{}" />
+            <marker date="1577270825938" expanded="true" signature="1584:1741" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="1792:1942" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="1985:2091" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2147:2276" ph="{...}" />
+            <marker date="1577270825938" expanded="false" signature="2317:2328" ph=" { " />
+            <marker date="1577270825938" expanded="false" signature="2392:2398" ph=" }" />
+            <marker date="1577270825938" expanded="true" signature="2440:2680" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="2722:2962" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="3004:3244" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="3250:3268" ph="/**...*/" />
+            <marker date="1577270825938" expanded="true" signature="3328:4554" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="4601:4715" ph="{...}" />
+            <marker date="1577270825938" expanded="true" signature="4758:5346" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/io/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svn_version.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svnconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="78" lean-forward="false" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/glory/svn/SVNkitUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>svnPacket:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>6.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>svnPacket</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>svnkit-1.9.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

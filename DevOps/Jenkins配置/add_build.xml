@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="policy_vhl_110" basedir="." default="package">
+
+	<property environment="env" />
+
+	<property name="ant.home" value="${env.ANT_HOME}" />
+	<property name="java.home" value="${env.JAVA_HOME}" />
+
+	<property name="src.dir" value="${basedir}/src/path" />
+	<property name="src.lib" value="${basedir}/src/templib" />
+	<property name="src.dir_1" value="${basedir}/src" />
+	<property name="web.dir" value="${basedir}/WebRoot" />
+	<property name="build.classes" value="${web.dir}/WEB-INF/classes" />
+	<property name="dist.dir" value="${basedir}/claim" />
+	<property name="conf.dir" value="${web.dir}/WEB-INF/classes/conf" />
+	<property name="zsconf.dir" value="${basedir}/conf/zs" />
+	<property name="temp_build.dir" value="${basedir}/build" />
+	<property name="conf.dir_1" value="${web.dir}/WEB-INF/"/>
+
+	<!-- 依赖路径，用于编译 -->
+	<path id="classpath">
+		<!--<fileset dir="${basedir}/build">
+			<include name="**/*.jar" />
+		</fileset> -->
+		<fileset dir="${web.dir}/WEB-INF/lib">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+	<!-- 排除java源文件的模式集 -->
+	<patternset id="no.java">
+		<exclude name="**/*.java" />
+	</patternset>
+	<!-- 排除conf下配置文件 -->
+	<patternset id="properties">
+		<exclude name="**/applicationDeployment.properties" />
+		<exclude name="**/pcisv6DataSource.properties" />
+		<exclude name="**/*.java" />
+	</patternset>
+
+	<echo>******删除pcis目录下包</echo>
+	<delete dir="${src.dir}" />
+	<delete dir="${src.lib}" />
+	<delete dir="${build.classes}" />
+	<delete dir="${basedir}/conf" />
+	<echo level="info">清理完毕</echo>
+
+	<!-- 初始化,建立目录,将多个src目录复制到同一src目录，编译-->
+	<target name="init" description="初始化,建立目录,复制文件">
+		<echo>**** init dir copy ****</echo>
+		<mkdir dir="${build.classes}" />
+		<mkdir dir="${dist.dir}" />
+		<mkdir dir="${src.dir}" />
+		<copy todir="${src.dir}">
+			<fileset dir="${src.dir_1}">
+			</fileset>
+		</copy>
+		<copy todir="${build.classes}">
+			<fileset dir="${src.dir_1}">
+				<patternset refid="no.java" />
+				<patternset refid="properties" />
+			</fileset>
+		</copy>
+	</target>
+
+	<!-- 编译 -->
+	<target name="compile" depends="init">
+		<echo>**** compile  to classes dir ****</echo>
+		<javac srcdir="${src.dir}" destdir="${build.classes}" target="1.6" source="1.6" debug="true" debuglevel="lines,vars,source" fork="true" executable="/home/data/jdk1.6.0_45/bin/javac" memoryMaximumSize="1024m" nowarn="on" includeantruntime="true">
+			<compilerarg line="-encoding UTF-8" />
+			<classpath refid="classpath" />
+		</javac>
+	</target>
+	
+
+	<path id="lib_classpath">
+        <fileset dir="${basedir}/">
+            <include name="svnPacket.jar"/>
+        </fileset>
+	</path>
+	<target name="package" depends="compile">  
+		 <echo>开始.......</echo>
+       	<!-- <java classname="com.glory.svn.SVNKitUtil" classpathref="lib_classpath">
+         
+        </java>-->
+		 <echo>结束.......</echo>
+	</target>	
+	
+</project>

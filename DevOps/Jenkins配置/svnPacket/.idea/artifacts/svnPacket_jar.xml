@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="svnPacket:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/svnPacket_jar</output-path>
+    <root id="archive" name="svnPacket.jar">
+      <element id="module-output" name="svnPacket" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/svnkit-1.9.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
